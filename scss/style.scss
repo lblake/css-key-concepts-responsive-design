@@ -1,11 +1,12 @@
-:root {
-  --coral: #f05d5e;
-  --teal: #0f7173;
-  // --light: #e7ecef;
-  --dark: #272932;
-  --camel: #d8a47f;
+@import 'base/normalize';
+@import 'abstracts/variables';
+
+
+:root{
+  
 }
-$light: #e7ecef;
+
+
 body {
   background-color: $light;
 }
