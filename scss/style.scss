@@ -1,21 +1,15 @@
 @import 'base/normalize';
 @import 'abstracts/variables';
 
-
-:root{
-  
-}
-
-
 body {
   background-color: $light;
 }
 
 .card {
-  padding: 10px;
-  margin: 10px;
+  padding: 0.625rem;
+  margin: 0.625rem;
 }
 
 img {
-  width: 250px;
+  width: 15.625rem;
 }
