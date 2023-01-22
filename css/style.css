@@ -1,0 +1,19 @@
+:root {
+  --coral: #f05d5e;
+  --teal: #0f7173;
+  --dark: #272932;
+  --camel: #d8a47f;
+}
+
+body {
+  background-color: #e7ecef;
+}
+
+.card {
+  padding: 10px;
+  margin: 10px;
+}
+
+img {
+  width: 250px;
+}
