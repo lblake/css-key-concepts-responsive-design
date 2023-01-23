@@ -2,9 +2,10 @@
  https://www.learnhowtoprogram.com/user-interfaces/building-layouts-preprocessors/7-1-sass-architecture
 */
 
-@import 'base/normalize';
-@import 'abstracts/variables';
-@import 'components/card-container';
+@use 'base/normalize' as *;
+@use 'abstracts/variables' as *;
+@use 'components/card-container' as *;
+@use 'layout/header' as *;
 
 body {
   background-color: $light;
@@ -13,8 +14,11 @@ body {
 .card {
   padding: 0.625rem;
   margin: 0.625rem;
+  border: 3px solid $coral;
 }
 
 img {
   width: 15.625rem;
+  border: solid 3px $camel;
+  height: 200px;
 }
