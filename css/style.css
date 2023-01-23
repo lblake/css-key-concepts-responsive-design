@@ -388,10 +388,11 @@ template {
   margin: 0 auto;
 }
 .card-container .card {
-  border: solid 2px black;
+  border: solid 3px #f05d5e;
 }
 .card-container img {
-  border: solid 1px black;
+  border: solid 3px #d8a47f;
+  height: 200px;
 }
 .card-container .row {
   display: flex;
@@ -404,6 +405,9 @@ template {
 @media only screen and (max-width: 768px) {
   .card-container .row {
     flex-wrap: wrap;
+  }
+  .card-container .column {
+    flex-basis: 100%;
   }
 }
 
