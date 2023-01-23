@@ -383,6 +383,30 @@ template {
   display: none;
 }
 
+.card-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.card-container .card {
+  border: solid 2px black;
+}
+.card-container img {
+  border: solid 1px black;
+}
+.card-container .row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: auto;
+}
+.card-container .column {
+  flex: 1;
+}
+@media only screen and (max-width: 768px) {
+  .card-container .row {
+    flex-wrap: wrap;
+  }
+}
+
 body {
   background-color: #e7ecef;
 }
