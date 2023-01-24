@@ -92,7 +92,7 @@ const cats = [
   {
     name: 'Tiger',
     species: 'Fearsome Cat',
-    favFoods: ['anything that moves', 'anything else'],
+    favFoods: ['anything that moves'],
     birthYear: 2020,
     photo:
       'https://static.onecms.io/wp-content/uploads/sites/47/2021/04/13/kitten-pounce-158906394-2000.jpg',

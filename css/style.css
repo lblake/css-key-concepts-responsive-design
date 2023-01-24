@@ -384,6 +384,11 @@ template {
   max-width: 1200px;
   margin: 0 auto;
 }
+.card-container p,
+.card-container h3 {
+  display: flex;
+  justify-content: center;
+}
 .card-container .row {
   display: flex;
   gap: 10px;
@@ -393,6 +398,10 @@ template {
   flex: 1;
 }
 @media only screen and (max-width: 768px) {
+  .card-container .center-image {
+    display: flex;
+    justify-content: center;
+  }
   .card-container .row {
     flex-wrap: wrap;
   }
