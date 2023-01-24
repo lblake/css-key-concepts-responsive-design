@@ -381,8 +381,18 @@ template {
 }
 
 .card-container {
-  max-width: 1200px;
+  max-width: 75rem;
   margin: 0 auto;
+}
+.card-container .card {
+  padding: 0.625rem;
+  margin: 0.625rem;
+  border: 3px solid #f05d5e;
+}
+.card-container img {
+  width: 15.625rem;
+  border: solid 3px #d8a47f;
+  height: 12.5rem;
 }
 .card-container p,
 .card-container h3 {
@@ -391,7 +401,7 @@ template {
 }
 .card-container .row {
   display: flex;
-  gap: 10px;
+  gap: 0.625rem;
   margin-bottom: auto;
 }
 .card-container .column {
@@ -411,7 +421,7 @@ template {
 }
 
 .header {
-  max-width: 1200px;
+  max-width: 75rem;
   margin: 0 auto;
 }
 .header h1,
@@ -425,16 +435,4 @@ template {
 */
 body {
   background-color: #e7ecef;
-}
-
-.card {
-  padding: 0.625rem;
-  margin: 0.625rem;
-  border: 3px solid #f05d5e;
-}
-
-img {
-  width: 15.625rem;
-  border: solid 3px #d8a47f;
-  height: 200px;
 }
