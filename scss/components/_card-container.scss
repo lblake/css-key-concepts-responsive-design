@@ -1,5 +1,5 @@
 .card-container {
-  max-width: 1200px;
+  max-width: 75rem;
   margin: 0 auto;
 
   p,
@@ -10,13 +10,12 @@
 
   .row {
     display: flex;
-    gap: 10px;
+    gap: 0.625rem;
     margin-bottom: auto;
   }
 
   .column {
     flex: 1;
-    // padding: 10px 0;
   }
 
   @media only screen and (max-width: 768px) {
