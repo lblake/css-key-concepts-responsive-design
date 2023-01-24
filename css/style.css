@@ -388,6 +388,7 @@ template {
   padding: 0.625rem;
   margin: 0.625rem;
   border: 3px solid #f05d5e;
+  border-radius: 1.5625rem;
 }
 .card-container img {
   width: 15.625rem;
