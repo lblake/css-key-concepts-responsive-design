@@ -443,6 +443,14 @@ body {
   background-color: #e7ecef;
 }
 
+/* if user switches the system settings to dark mode */
+/* this media query will be applied */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: #fff;
+  }
+}
 h1 {
   font-size: 2.25rem;
 }

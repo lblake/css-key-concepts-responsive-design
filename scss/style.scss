@@ -6,10 +6,17 @@
 @use 'abstracts/variables' as *;
 @use 'components/card-container' as *;
 @use 'layout/header' as *;
-@use 'layout/dark-mode' as *;
 
 body {
   background-color: $light;
+}
+/* if user switches the system settings to dark mode */
+/* this media query will be applied */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: #fff;
+  }
 }
 
 h1 {
