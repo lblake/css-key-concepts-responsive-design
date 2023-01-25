@@ -424,6 +424,8 @@ template {
 .header {
   max-width: 75rem;
   margin: 0 auto;
+  /*Create a media query for min-width: 700px. Using rem, update our font-sizes 
+  so they will be larger for screen sizes with a min-width of 700px.*/
 }
 .header h1,
 .header h2,
@@ -435,11 +437,34 @@ template {
     display: none;
   }
 }
+@media only screen and (min-width: 700px) {
+  .header {
+    /*
+    Create a media query for min-width: 1000px. Using rem, update our font-sizes again, 
+    so they will be larger for screen sizes with a min-width of 1000px.
+    */
+  }
+  .header h1 {
+    font-size: 3.375rem;
+  }
+  .header p {
+    font-size: 1.125rem;
+  }
+}
+@media only screen and (min-width: 700px) and (min-width: 1000px) {
+  .header h1 {
+    font-size: 4.5rem;
+  }
+  .header p {
+    font-size: 1.5rem;
+  }
+}
 
 /* folder & file structure setup based on: 
  https://www.learnhowtoprogram.com/user-interfaces/building-layouts-preprocessors/7-1-sass-architecture
 */
 body {
+  font-family: "Didact Gothic", sans-serif;
   background-color: #e7ecef;
 }
 
@@ -457,27 +482,4 @@ h1 {
 
 p {
   font-size: 0.75rem;
-}
-
-/*Create a media query for min-width: 700px. Using rem, update our font-sizes 
-so they will be larger for screen sizes with a min-width of 700px.*/
-@media only screen and (min-width: 700px) {
-  h1 {
-    font-size: 3.375rem;
-  }
-  p {
-    font-size: 1.125rem;
-  }
-  /*
-  Create a media query for min-width: 1000px. Using rem, update our font-sizes again, 
-  so they will be larger for screen sizes with a min-width of 1000px.
-  */
-}
-@media only screen and (min-width: 700px) and (min-width: 1000px) {
-  h1 {
-    font-size: 4.5rem;
-  }
-  p {
-    font-size: 1.5rem;
-  }
 }
