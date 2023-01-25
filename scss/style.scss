@@ -6,6 +6,7 @@
 @use 'abstracts/variables' as *;
 @use 'components/card-container' as *;
 @use 'layout/header' as *;
+@use 'layout/navbar' as *;
 
 body {
   font-family: 'Didact Gothic', sans-serif;
@@ -26,3 +27,4 @@ h1 {
 p {
   font-size: 0.75rem;
 }
+

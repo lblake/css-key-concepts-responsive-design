@@ -460,6 +460,25 @@ template {
   }
 }
 
+.header__nav {
+  background-color: #f05d5e;
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header__nav a {
+  text-decoration: none;
+  color: inherit;
+}
+.header__nav ul {
+  list-style: none;
+}
+
+.nav_list {
+  display: flex;
+}
+
 /* folder & file structure setup based on: 
  https://www.learnhowtoprogram.com/user-interfaces/building-layouts-preprocessors/7-1-sass-architecture
 */
