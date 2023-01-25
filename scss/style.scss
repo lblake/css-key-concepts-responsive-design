@@ -6,6 +6,7 @@
 @use 'abstracts/variables' as *;
 @use 'components/card-container' as *;
 @use 'layout/header' as *;
+@use 'layout/dark-mode' as *;
 
 body {
   background-color: $light;
@@ -21,11 +22,11 @@ p {
 so they will be larger for screen sizes with a min-width of 700px.*/
 @media only screen and (min-width: 700px) {
   h1 {
-    font-size: 2.25rem * 1;
+    font-size: 2.25rem * 1.5;
   }
 
   p {
-    font-size: 0.75rem * 1;
+    font-size: 0.75rem * 1.5;
   }
   /*
 Create a media query for min-width: 1000px. Using rem, update our font-sizes again, 
